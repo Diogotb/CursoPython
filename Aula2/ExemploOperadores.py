@@ -1,7 +1,7 @@
 # Exemplo: Operadore Aritméticos
 
-a = 10
-b = 3
+a = int(input("Digite um nº "))
+b = int(input("Digite outro nº "))
 
 soma = a + b
 subtracao = a - b

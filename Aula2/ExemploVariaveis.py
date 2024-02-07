@@ -21,7 +21,9 @@ print(contador)
 # Variáveis em Estruturas de Controle:
 
 idade = 18
-if idade >= 18:
+if idade > 18:
+    pode_votar = True
+elif idade==18:
     pode_votar = True
 else:
     pode_votar = False
