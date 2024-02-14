@@ -15,18 +15,18 @@ resto_divisao = a % b
 potenciacao = a ** b
 
 # Raio de um círculo
-raio = 4
-area_circulo = 3.14 * (raio ** 2)
+raio = int(input("Digite o Raio d Circunferência"))
+area_circulo = 3.14 * raio ** 2
 
 print(soma, subtracao, multiplicacao, divisao, divisao_inteira, resto_divisao, potenciacao)
-print(f"A área do círculo com raio {raio} é: {area_circulo}")
+print("A área do círculo com raio" +str(raio) + f"é: {area_circulo}")
 
 
 # 2 - Manipulação de Strings:
 
 # Exercício 2
-nome = str(input("Digite seu Nome: \n"))
-sobrenome = str(input("Digite seu Sobrenome: \n"))
+nome = input("Digite seu Nome: \n")
+sobrenome = input("Digite seu Sobrenome: \n")
 
 nome_completo = nome + " " + sobrenome
 
@@ -46,19 +46,18 @@ print(frase_substituida)
 cores = ["azul", "verde", "vermelho"]
 cores.extend(["amarelo", "roxo"])
 
-# Exercício 4
 coordenadas = (40.7128, -74.0060)
+# Atribuindo nomes as posições da tupla
 latitude, longitude = coordenadas
 
 print(cores)
-print(f"Latitude: {latitude}, Longitude: {longitude}")
+print(f"Latitude: {coordenadas[0]}, Longitude: {longitude}")
 
 # 4 - Uso de Operadores Lógicos em Estruturas Condicionais:
 
 # Exercício 5
-tem_sol = True
+tem_sol = False
 tem_chuva = False
-
 if tem_sol and not tem_chuva:
     print("É um dia agradável!")
 else:

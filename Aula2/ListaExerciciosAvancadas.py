@@ -8,7 +8,7 @@ b = float(input("Digite o coeficiente b: "))
 c = float(input("Digite o coeficiente c: "))
 
 # Fórmula de Bhaskara
-delta = cmath.sqrt(b**2 - 4*a*c)
+delta = (b**2 - 4*a*c)**(1/2)
 raiz1 = (-b + delta) / (2*a)
 raiz2 = (-b - delta) / (2*a)
 
@@ -18,10 +18,10 @@ print(f"As raízes da equação quadrática são: {raiz1} e {raiz2}")
 dolares = float(input("Digite o valor em dólares: "))
 taxa_conversao = float(input("Digite a taxa de conversão: "))
 
-euros = dolares * taxa_conversao
+reais= dolares * taxa_conversao
 libras = dolares * 0.75  # Considerando uma taxa de conversão fictícia
 
-print(f"Em euros: {euros:.2f}")
+print(f"Em euros: {reais:.2f}")
 print(f"Em libras: {libras:.2f}")
 
 # 2 - Manipulação de Strings:
