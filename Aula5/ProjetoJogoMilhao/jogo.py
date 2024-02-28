@@ -17,7 +17,7 @@ def jogar():
         resposta_usuario = exibir_pergunta(pergunta)
 
         if resposta_usuario == pergunta['resposta_correta']:
-            dinheiro_acumulado += 1000
+            dinheiro_acumulado += 1000*indice if indice>0 else 1000 
             print(f"Resposta Correta! Você ganhou ${dinheiro_acumulado}.")
         else:
             print("Resposta Incorreta. Fim de Jogo.")
@@ -26,4 +26,11 @@ def jogar():
     else:
         print(f"\n\nParabéns! Você ganhou um total de ${dinheiro_acumulado}.")
 
-jogar()
+iniciar_jogo = 'S'
+    
+while iniciar_jogo == 'S':
+    print("\n===== Quem Quer Ser um Milionário? =====")
+    jogar()
+    iniciar_jogo = input("Deseja jogar novamente? (S para Sim, qualquer outra tecla para sair): ").upper()
+
+print("Obrigado por jogar! Até a próxima.")
