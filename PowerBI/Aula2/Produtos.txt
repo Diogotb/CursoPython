@@ -1,0 +1,90 @@
+HL1001
+Smart TV 50' 4K - Preto
+LG
+Televisão
+R$ 2.600,00
+R$ 1.700,00
+
+HL1002
+iPhone 7 - Dourado
+Apple
+Celular
+R$ 2.500,00
+R$ 1.500,00
+
+HL1003
+Galaxy S10 - Cinza
+Samsung
+Celular
+R$ 4.500,00
+R$ 2.800,00
+
+HL1004
+Apple Watch - Preto
+Apple
+Smart Watch
+R$ 1.750,00
+R$ 900,00
+
+HL1005
+Câmera Digital Rebel T6 - Preto
+Canon
+Câmera
+R$ 1.500,00
+R$ 850,00
+
+HL1006
+TV LED 32' - Preto
+Samsung
+Televisão
+R$ 1.400,00
+R$ 900,00
+
+HL1007
+Inspiron 15 - Prata
+Dell
+Notebook
+R$ 2.300,00
+R$ 1.200,00
+
+HL1008
+Smart TV LED Full HD 55' - Preto
+Philco
+Televisão
+R$ 2.000,00
+R$ 1.250,00
+
+HL1009
+Moto G7 - Vermelho
+Motorola
+Celular
+R$ 1.400,00
+R$ 750,00
+
+HL1010
+iPhone 6S - Rosa
+Apple
+Celular
+R$ 1.900,00
+R$ 1.150,00
+
+HL1011
+Tablet M10 Android - Preto
+Samsung
+Tablet
+R$ 2.000,00
+R$ 1.100,00
+
+HL1012
+Dell G7 - Vermelho
+Dell
+Notebook
+R$ 5.500,00
+R$ 3.200,00
+
+HL1013
+Câmera Coolpix L340 - Cinza
+Nikon
+Câmera
+R$ 1.550,00
+R$ 700,00

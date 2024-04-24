@@ -1,0 +1,19 @@
+Atividade
+
+
+Você trabalha como analista de dados para uma famosa revista. Seu editor solicitou que você crie gráficos para visualizar informações referente a distribuição populacional das 200 cidades mais populosas do Brasil.
+
+Os dados para a elaboração desses gráficos estão disponíveis na tabela que é apresentada na publicação As 200 cidades do Brasil com maior população, de Agosto de 2014.
+
+Disponível em - https://exame.com/brasil/as-200-cidades-mais-populosas-do-brasil/
+
+Os gráficos deverão informar:
+
+População total;
+Média populacional;
+Soma da população por estado.
+Estado com a menor soma populacional.
+Quantidade de cidades por estado presentes na lista.
+Mapa apresentando a relação da soma populacional por estado.
+
+Crie funções DAX no PowerBi para agilizar a apresentação dos resultados.
