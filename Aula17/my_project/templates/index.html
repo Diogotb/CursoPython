@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis</title>
+</head>
+<body>
+    <h1>Sumário de Dados</h1>
+    <div>{{ summary|safe }}</div>
+    
+    <h2>Histograma</h2>
+    <img src="/plot/hist/column_of_interest" alt="Histograma">
+
+    <h2>Gráfico de Dispersão</h2>
+    <img src="/plot/scatter/column_x/column_y" alt="Gráfico de Dispersão">
+
+    <h2>Gráfico de Barras</h2>
+    <img src="/plot/bar/category" alt="Gráfico de Barras">
+
+    <h2>Boxplot</h2>
+    <img src="/plot/boxplot/column_of_interest" alt="Boxplot">
+
+    <h2>Gráfico de Linha</h2>
+    <img src="/plot/line/value" alt="Gráfico de Linha">
+
+    <h2>Gráfico Interativo</h2>
+    <iframe src="/plot_interactive" width="100%" height="600"></iframe>
+</body>
+</html>
